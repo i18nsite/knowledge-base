@@ -13,16 +13,16 @@ Keycloak是一个开源的身份和访问管理解决方案，它提供了一套
 ## 基于SAML2.0协议
 ---
 ### 1.登录FlashDuty控制台
-- 从FlashDuty获取acs地址（第2步会用到）
-- 路径：访问控制--->单点登录--->设置--->SAML2.0协议---->Flashcat服务提供商信息--->Assertion Consumer Service URL
+#### 1.1 从FlashDuty获取acs地址（第2步会用到）
+#### 1.2 路径：访问控制--->单点登录--->设置--->SAML2.0协议---->Flashcat服务提供商信息--->Assertion Consumer Service URL
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437194/image-preview)
 
 ### 2.登录Keycloak控制台新建一个Client
-- 路径：Clients ---> Create client
-- Client Type：选择SAML协议
-- Client ID填写： flashcat.cloud（固定值，不可更改）
-- Valid redirect URIs： 填写从FlashDuty获取的acs地址
+#### 2.1 路径：Clients ---> Create client
+#### 2.2 Client Type：选择SAML协议
+#### 2.3 Client ID填写： flashcat.cloud（固定值，不可更改）
+#### 2.4 Valid redirect URIs： 填写从FlashDuty获取的acs地址
 
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437197/image-preview)
 ![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/437029/image-preview)
