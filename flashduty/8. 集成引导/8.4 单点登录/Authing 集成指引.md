@@ -1,3 +1,11 @@
+---
+title: "FlashDuty Changelog 2023-12-18 | 值班管理、服务日历、自定义操作和邮件集成"
+description: "支持更高级的值班管理功能，支付服务日历、自定义操作和邮件集成"
+date: "2023-12-18T10:00:00+08:00"
+---
+
+
+
 快速了解
 ---
 [Authing](https://www.authing.cn/)是一家提供身份识别和访问控制管理的供应商，通过Authing平台，可实现以OIDC或SAML2.0协议的方式登录FlashDuty管理控制台
