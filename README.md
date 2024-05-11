@@ -44,3 +44,10 @@ description: "支持更高级的值班管理功能，支付服务日历、自定
 date: "2023-12-18T10:00:00+08:00"
 ---
 ```
+
+- **文档地址定义**：
+    
+```
+格式：https://docs.flashcat.cloud/[lang]/[product]/[md]
+示例：https://docs.flashcat.cloud/zh/flashduty/getting-started
+```
