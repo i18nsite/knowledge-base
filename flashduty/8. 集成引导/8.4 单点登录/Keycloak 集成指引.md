@@ -1,9 +1,9 @@
 ---
-title: "FlashDuty Changelog 2023-12-18 | 值班管理、服务日历、自定义操作和邮件集成"
-description: "支持更高级的值班管理功能，支付服务日历、自定义操作和邮件集成"
-date: "2023-12-18T10:00:00+08:00"
+title: ""
+description: ""
+date: "2024-05-11T10:00:00+08:00"
+url: "https://docs.flashcat.cloud/zh/flashduty/introduction"
 ---
-
 
 ## 快速了解
 ---
