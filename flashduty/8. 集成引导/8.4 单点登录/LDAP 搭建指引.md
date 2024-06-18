@@ -106,13 +106,11 @@ docker-compose down
 
 ## 登录LDAP
 ---
-在浏览器中访问 http://ip:8088/，使用用户名 cn=admin,dc=flashduty,dc=com 和 密码 xxx 登录。
+在浏览器中访问 http://ip:8088/ , 使用用户名 cn=admin,dc=flashduty,dc=com 和 密码 xxx 登录。
 
 ## LDAP 配置
 ---
-
 ### 添加组和用户
----
 
 ![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/ldap-add-group-user.png)
 
