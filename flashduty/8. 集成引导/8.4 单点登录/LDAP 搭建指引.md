@@ -122,6 +122,13 @@ docker-compose down
 :::
 
 
+:::tip
+
+基于LDAP配置完成后，登录测试参考 `配置单点登录` 即可
+
+:::
+
+
 ## 参考文档
 - [LDAP 安装](https://hub.docker.com/_/openldap)
 - [phpLDAPadmin 安装](https://hub.docker.com/_/phpldapadmin)
