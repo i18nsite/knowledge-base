@@ -141,7 +141,7 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 #### 2.1 将 Authing 应用的相关信息复制到对应的填写框中
 ![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-duty-conf.jpg)
 
-#### 2.2 将 回到地址 复制到 Authing 的登录回调URL 中
+#### 2.2 将 回调地址 复制到 Authing 的登录回调URL 中
 
 ![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-auth-callback.jpg)
 
