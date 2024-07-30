@@ -139,17 +139,17 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 ### 2.配置相关信息复制到对应的填写框中
 
 #### 2.1 将 Authing 应用的相关信息复制到对应的填写框中
-![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436951/image-preview)
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-duty-conf.jpg)
 
-#### 2.2 将 Redirect URL复制到 Authing 的登录回调 URL中
+#### 2.2 将 回到地址 复制到 Authing 的登录回调URL 中
 
-![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436957/image-preview)
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-auth-callback.jpg)
 
 ### 3.更改 Authing 配置
 
-#### 3.1 按图配置，只需将 id_token 签名算法更改为 RS256 即可
+#### 3.1 按图配置
 
-![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436961/image-preview)
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-auth-conf.jpg)
 
 #### 3.2 配置登录控制
 
@@ -172,11 +172,8 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 
 #### 4.2 使用 SSO 地址测试登录
 
-![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436976/image-preview)
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-login.jpg)
 
-:::tip
-**可以访问 console.flashcat.cloud 通过 SSO 的方式登录**
-:::
 
 #### 4.3 SSO 地址跳转到登录页面
 
