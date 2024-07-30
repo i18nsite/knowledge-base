@@ -128,3 +128,57 @@ FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
 :::tip
 以上是两种方式的全部配置方式，两个平台在配置时有穿插，所以请务必小心不要遗忘关键信息，如在配置过程中有任何问题，可以联系 FlashDuty 技术支持协助
 :::
+
+
+## 开始配置 CAS 协议
+---
+### 1. 打开 [FlashDuty](console.flashcat.cloud) 控制台并开启单点登录配置
+
+![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436946/image-preview)
+
+### 2.配置相关信息复制到对应的填写框中
+
+#### 2.1 将 Authing 应用的相关信息复制到对应的填写框中
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-duty-conf.jpg)
+
+#### 2.2 将 回调地址 复制到 Authing 的登录回调URL 中
+
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-auth-callback.jpg)
+
+### 3.更改 Authing 配置
+
+#### 3.1 按图配置
+
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-auth-conf.jpg)
+
+#### 3.2 配置登录控制
+
+![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436964/image-preview)
+
+#### 3.3 更改权限
+
+![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436967/image-preview)
+
+### 4.创建用户并测试登录
+
+#### 4.1 在 Authing 中创建用户
+
+:::tip
+FlashDuty 只支持用户邮箱关联，所以需要用邮箱创建用户
+:::
+
+
+![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436973/image-preview)
+
+#### 4.2 使用 SSO 地址测试登录
+
+![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/cas-login.jpg)
+
+
+#### 4.3 SSO 地址跳转到登录页面
+
+![image.png](https://api.apifox.com/api/v1/projects/4169655/resources/436980/image-preview)
+
+:::tip
+使用在 Authing 创建的用户，登录 FlashDuty 控制台
+:::
