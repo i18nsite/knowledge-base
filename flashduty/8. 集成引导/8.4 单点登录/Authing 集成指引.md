@@ -8,7 +8,7 @@ url: "https://docs.flashcat.cloud/zh/flashduty/authing-integration-guide"
 
 快速了解
 ---
-[Authing](https://www.authing.cn/)是一家提供身份识别和访问控制管理的供应商，通过Authing平台，可实现以OIDC或SAML2.0协议的方式登录FlashDuty管理控制台
+[Authing](https://www.authing.cn/)是一家提供身份识别和访问控制管理的供应商，通过Authing平台，可实现以OIDC、SAML2.0或CAS协议的方式登录FlashDuty管理控制台
 
 ## 准备工作
 ---
