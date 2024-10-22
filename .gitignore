@@ -1,3 +1,5 @@
+/img/
+/.img/cache
 bun.lockb
 node_modules/
 */.DS_Store
