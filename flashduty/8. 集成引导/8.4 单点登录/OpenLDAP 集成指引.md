@@ -114,7 +114,7 @@ docker-compose down
 ---
 ### 添加组和用户
 
-![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/ldap-add-group-user.png)
+![image.png](https://img.github.io/1rC8UssQX0Djb1bLj3EWmNjZPG1BX-DLWxY_Q8CSWmA.avif)
 
 
 :::tip
@@ -125,7 +125,7 @@ docker-compose down
 
 ## FlashDuty 集成
 结合上述OpenLDAP配置，FlashDuty集成信息如下图所示：
-![image.png](https://fcpub-1301667576.cos.ap-nanjing.myqcloud.com/flashduty/kb/ldap-duty-config.png)
+![image.png](https://img.github.io/lEGCTBal4Z6hl7Vawh6NpyUPvtqeLfHG1c55qXBZQX8.avif)
 
 
 :::tip

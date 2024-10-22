@@ -9,9 +9,9 @@
   path > join
   sharp
 
-HOST = 'img.github.io'
+CDN = 'fcdoc.github.io/img'
 
-PREFIX = "https://#{HOST}/"
+PREFIX = "https://#{CDN}/"
 
 ROOT = import.meta.dirname
 MD =  join ROOT, 'flashduty'
@@ -85,6 +85,8 @@ for await path from walk MD, (i)=>i.startsWith('.')
     if rpath
       changed.push rpath
 
-console.log 'changed',changed.length
-await save changed
+if changed.length
+  console.log 'changed',changed.length
+  await save changed
+
 process.exit 0
